@@ -14,12 +14,13 @@ get_public_ip() {
 
 
 verificar_processo() {
-    if pgrep -f "rtcheck" > /dev/null; then
-        return 1  
+    if pgrep -x "rtcheck" > /dev/null; then
+        return 0
     else
-        return 0  
+        return 1
     fi
 }
+
 
 while true; do
     clear
@@ -44,6 +45,7 @@ while true; do
 
     echo -e "\nSelecione uma opção:"
     echo -e " 1 - $acao api"
+    echo -e " 2 - Sobre"
     echo -e " 0 - Sair do menu"
 
     read -p "Digite a opção: " option
