@@ -1,11 +1,9 @@
-# ApiCheckuser
-
-Uma simples api para o funcionamento do UlekCheckuser ! 
+# RtunnelCheckuser
 
 para fazer a instalação rode o seguinte comando !
 
-```bash <(wget -qO- https://raw.githubusercontent.com/UlekBR/ApiCheckUser/main/install.sh)```
+```bash <(wget -qO- https://raw.githubusercontent.com/UlekBR/RtunnelCheckuser/main/install.sh)```
 
 Feito por @UlekBR
 
-Para iniciar o checkuser menu: ```menuApiCheck```
+Para iniciar o checkuser menu: ```rtcheck```
