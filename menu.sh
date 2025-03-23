@@ -59,7 +59,7 @@ while true; do
             rm -f /opt/rt/port;
         else
             read -p $'\nDigite a porta que deseja usar: ' port
-            echo $port > /opt/rtcheck/port 
+            echo $port > /opt/rt/port 
             
             clear
             echo -e "Porta escolhida: $port"
