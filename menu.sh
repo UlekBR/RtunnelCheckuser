@@ -58,7 +58,7 @@ while true; do
             sudo systemctl daemon-reload
             rm -f /opt/rt/port;
         else
-            read -p $'\nDigite a porta que deseja usar: ' 
+            read -p $'\nDigite a porta que deseja usar: ' port
             echo $port > /opt/rtcheck/port 
             
             clear
