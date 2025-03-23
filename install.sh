@@ -4,7 +4,7 @@
 mkdir /opt
 mkdir /opt/rt
 
-apt update -y && apt upgrade -y
+apt update -y
 apt install curl -y
 
 arch=$(uname -m)
