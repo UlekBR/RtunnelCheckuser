@@ -44,7 +44,6 @@ while true; do
 
     echo -e "\nSelecione uma opção:"
     echo -e " 1 - $acao api"
-    echo -e " 2 - Sobre"
     echo -e " 0 - Sair do menu"
 
     read -p "Digite a opção: " option
@@ -70,7 +69,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/opt/rt/check
+ExecStart=/opt/rt/rtcheck
 Restart=always
 
 [Install]
