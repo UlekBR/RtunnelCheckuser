@@ -26,5 +26,6 @@ chmod +x /opt/rt/rtcheck
 chmod +x /opt/rt/menu.sh
 
 ln -s /opt/rt/menu.sh /usr/local/bin/rtcheck
+clear
 echo -e "Para iniciar o menu digite: rtcheck"
 
